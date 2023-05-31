@@ -6,7 +6,7 @@ import Colourset from './colourset';
 //parent component
 function App() {
 const[UIcolour,setUIcolour]=useState(null);
-//our callback function--using this only we can pass data from child to parent
+//our callback function--using this only we can pass data from child to parent,like we passed the below function as a prop to the child component and then the child component passed the value for the mycolour parameter
 const getcolour=(mycolour)=>
 {
   //getting the mycolour value from the child class.
