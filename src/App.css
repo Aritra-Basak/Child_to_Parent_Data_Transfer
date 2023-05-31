@@ -1,0 +1,16 @@
+.mainApp
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App_colour_container
+{
+border: 2px solid black;
+width: 50%;
+height: 200px;
+margin:5%;
+text-align: center;
+}
